@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF22C87420E277AE001B773F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C87320E277AE001B773F /* main.swift */; };
+		FF22C87B20E277E0001B773F /* TMCommandProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C87A20E277E0001B773F /* TMCommandProtocol.swift */; };
+		FF22C87D20E27864001B773F /* TMLeftCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C87C20E27864001B773F /* TMLeftCommand.swift */; };
+		FF22C88020E2788D001B773F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF22C87F20E2788D001B773F /* Foundation.framework */; };
+		FF22C88220E278DF001B773F /* TetrisMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C88120E278DF001B773F /* TetrisMachine.swift */; };
+		FF22C88420E279F7001B773F /* TMRightCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C88320E279F7001B773F /* TMRightCommand.swift */; };
+		FF22C88620E27A41001B773F /* TMTransfromCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C88520E27A41001B773F /* TMTransfromCommand.swift */; };
+		FF22C88820E27A90001B773F /* TetrisMachineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C88720E27A90001B773F /* TetrisMachineManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF22C86E20E277AE001B773F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF22C87020E277AE001B773F /* CommandModelTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandModelTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF22C87320E277AE001B773F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FF22C87A20E277E0001B773F /* TMCommandProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMCommandProtocol.swift; sourceTree = "<group>"; };
+		FF22C87C20E27864001B773F /* TMLeftCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMLeftCommand.swift; sourceTree = "<group>"; };
+		FF22C87F20E2788D001B773F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF22C88120E278DF001B773F /* TetrisMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisMachine.swift; sourceTree = "<group>"; };
+		FF22C88320E279F7001B773F /* TMRightCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMRightCommand.swift; sourceTree = "<group>"; };
+		FF22C88520E27A41001B773F /* TMTransfromCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMTransfromCommand.swift; sourceTree = "<group>"; };
+		FF22C88720E27A90001B773F /* TetrisMachineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisMachineManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF22C86D20E277AE001B773F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF22C88020E2788D001B773F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF22C86720E277AE001B773F = {
+			isa = PBXGroup;
+			children = (
+				FF22C87220E277AE001B773F /* CommandModelTest */,
+				FF22C87120E277AE001B773F /* Products */,
+				FF22C87E20E2788C001B773F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF22C87120E277AE001B773F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF22C87020E277AE001B773F /* CommandModelTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF22C87220E277AE001B773F /* CommandModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				FF22C87320E277AE001B773F /* main.swift */,
+				FF22C87A20E277E0001B773F /* TMCommandProtocol.swift */,
+				FF22C88120E278DF001B773F /* TetrisMachine.swift */,
+				FF22C87C20E27864001B773F /* TMLeftCommand.swift */,
+				FF22C88320E279F7001B773F /* TMRightCommand.swift */,
+				FF22C88520E27A41001B773F /* TMTransfromCommand.swift */,
+				FF22C88720E27A90001B773F /* TetrisMachineManager.swift */,
+			);
+			path = CommandModelTest;
+			sourceTree = "<group>";
+		};
+		FF22C87E20E2788C001B773F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF22C87F20E2788D001B773F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF22C86F20E277AE001B773F /* CommandModelTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF22C87720E277AE001B773F /* Build configuration list for PBXNativeTarget "CommandModelTest" */;
+			buildPhases = (
+				FF22C86C20E277AE001B773F /* Sources */,
+				FF22C86D20E277AE001B773F /* Frameworks */,
+				FF22C86E20E277AE001B773F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandModelTest;
+			productName = CommandModelTest;
+			productReference = FF22C87020E277AE001B773F /* CommandModelTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF22C86820E277AE001B773F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kunge;
+				TargetAttributes = {
+					FF22C86F20E277AE001B773F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = FF22C86B20E277AE001B773F /* Build configuration list for PBXProject "CommandModelTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF22C86720E277AE001B773F;
+			productRefGroup = FF22C87120E277AE001B773F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF22C86F20E277AE001B773F /* CommandModelTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF22C86C20E277AE001B773F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF22C87B20E277E0001B773F /* TMCommandProtocol.swift in Sources */,
+				FF22C87420E277AE001B773F /* main.swift in Sources */,
+				FF22C88820E27A90001B773F /* TetrisMachineManager.swift in Sources */,
+				FF22C88220E278DF001B773F /* TetrisMachine.swift in Sources */,
+				FF22C88620E27A41001B773F /* TMTransfromCommand.swift in Sources */,
+				FF22C87D20E27864001B773F /* TMLeftCommand.swift in Sources */,
+				FF22C88420E279F7001B773F /* TMRightCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF22C87520E277AE001B773F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF22C87620E277AE001B773F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FF22C87820E277AE001B773F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		FF22C87920E277AE001B773F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF22C86B20E277AE001B773F /* Build configuration list for PBXProject "CommandModelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF22C87520E277AE001B773F /* Debug */,
+				FF22C87620E277AE001B773F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF22C87720E277AE001B773F /* Build configuration list for PBXNativeTarget "CommandModelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF22C87820E277AE001B773F /* Debug */,
+				FF22C87920E277AE001B773F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF22C86820E277AE001B773F /* Project object */;
+}
