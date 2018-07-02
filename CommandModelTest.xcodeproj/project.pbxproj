@@ -15,6 +15,15 @@
 		FF22C88420E279F7001B773F /* TMRightCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C88320E279F7001B773F /* TMRightCommand.swift */; };
 		FF22C88620E27A41001B773F /* TMTransfromCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C88520E27A41001B773F /* TMTransfromCommand.swift */; };
 		FF22C88820E27A90001B773F /* TetrisMachineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C88720E27A90001B773F /* TetrisMachineManager.swift */; };
+		FF97418A20EA27F20072B202 /* DynamicCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97418920EA27F20072B202 /* DynamicCommand.swift */; };
+		FF97418C20EA27FF0072B202 /* CommandProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97418B20EA27FF0072B202 /* CommandProtocol.swift */; };
+		FF97418E20EA29920072B202 /* DynamicCommandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97418D20EA29920072B202 /* DynamicCommandManager.swift */; };
+		FF97419120EA2C0B0072B202 /* WrapperCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97419020EA2C0B0072B202 /* WrapperCommand.swift */; };
+		FF97419320EA2E7C0072B202 /* WrapperCommandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97419220EA2E7C0072B202 /* WrapperCommandManager.swift */; };
+		FF97419620EA2EF10072B202 /* GenericsCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97419520EA2EF10072B202 /* GenericsCommand.swift */; };
+		FF97419820EA2F780072B202 /* GenericsCommandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97419720EA2F780072B202 /* GenericsCommandManager.swift */; };
+		FF97419B20EA2FF10072B202 /* QueueCommandInvoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97419A20EA2FF10072B202 /* QueueCommandInvoke.swift */; };
+		FF97419E20EA30900072B202 /* BlockCommandInvoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF97419D20EA30900072B202 /* BlockCommandInvoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +48,15 @@
 		FF22C88320E279F7001B773F /* TMRightCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMRightCommand.swift; sourceTree = "<group>"; };
 		FF22C88520E27A41001B773F /* TMTransfromCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMTransfromCommand.swift; sourceTree = "<group>"; };
 		FF22C88720E27A90001B773F /* TetrisMachineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisMachineManager.swift; sourceTree = "<group>"; };
+		FF97418920EA27F20072B202 /* DynamicCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCommand.swift; sourceTree = "<group>"; };
+		FF97418B20EA27FF0072B202 /* CommandProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandProtocol.swift; sourceTree = "<group>"; };
+		FF97418D20EA29920072B202 /* DynamicCommandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCommandManager.swift; sourceTree = "<group>"; };
+		FF97419020EA2C0B0072B202 /* WrapperCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperCommand.swift; sourceTree = "<group>"; };
+		FF97419220EA2E7C0072B202 /* WrapperCommandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperCommandManager.swift; sourceTree = "<group>"; };
+		FF97419520EA2EF10072B202 /* GenericsCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsCommand.swift; sourceTree = "<group>"; };
+		FF97419720EA2F780072B202 /* GenericsCommandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsCommandManager.swift; sourceTree = "<group>"; };
+		FF97419A20EA2FF10072B202 /* QueueCommandInvoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueCommandInvoke.swift; sourceTree = "<group>"; };
+		FF97419D20EA30900072B202 /* BlockCommandInvoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockCommandInvoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +91,11 @@
 		FF22C87220E277AE001B773F /* CommandModelTest */ = {
 			isa = PBXGroup;
 			children = (
+				FF97419C20EA30840072B202 /* BlockCommandInvoke */,
+				FF97419920EA2FE70072B202 /* QueueCommandInvoke队列 */,
+				FF97419420EA2EE50072B202 /* GenericsCommand泛型命令 */,
+				FF97418F20EA2BA50072B202 /* WrapperCommand复合命令 */,
+				FF97418820EA27BD0072B202 /* DynamicCommand动态调用 */,
 				FF22C87320E277AE001B773F /* main.swift */,
 				FF22C87A20E277E0001B773F /* TMCommandProtocol.swift */,
 				FF22C88120E278DF001B773F /* TetrisMachine.swift */,
@@ -90,6 +113,50 @@
 				FF22C87F20E2788D001B773F /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF97418820EA27BD0072B202 /* DynamicCommand动态调用 */ = {
+			isa = PBXGroup;
+			children = (
+				FF97418920EA27F20072B202 /* DynamicCommand.swift */,
+				FF97418D20EA29920072B202 /* DynamicCommandManager.swift */,
+				FF97418B20EA27FF0072B202 /* CommandProtocol.swift */,
+			);
+			path = "DynamicCommand动态调用";
+			sourceTree = "<group>";
+		};
+		FF97418F20EA2BA50072B202 /* WrapperCommand复合命令 */ = {
+			isa = PBXGroup;
+			children = (
+				FF97419020EA2C0B0072B202 /* WrapperCommand.swift */,
+				FF97419220EA2E7C0072B202 /* WrapperCommandManager.swift */,
+			);
+			path = "WrapperCommand复合命令";
+			sourceTree = "<group>";
+		};
+		FF97419420EA2EE50072B202 /* GenericsCommand泛型命令 */ = {
+			isa = PBXGroup;
+			children = (
+				FF97419520EA2EF10072B202 /* GenericsCommand.swift */,
+				FF97419720EA2F780072B202 /* GenericsCommandManager.swift */,
+			);
+			path = "GenericsCommand泛型命令";
+			sourceTree = "<group>";
+		};
+		FF97419920EA2FE70072B202 /* QueueCommandInvoke队列 */ = {
+			isa = PBXGroup;
+			children = (
+				FF97419A20EA2FF10072B202 /* QueueCommandInvoke.swift */,
+			);
+			path = "QueueCommandInvoke队列";
+			sourceTree = "<group>";
+		};
+		FF97419C20EA30840072B202 /* BlockCommandInvoke */ = {
+			isa = PBXGroup;
+			children = (
+				FF97419D20EA30900072B202 /* BlockCommandInvoke.swift */,
+			);
+			path = BlockCommandInvoke;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,13 +216,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF97419620EA2EF10072B202 /* GenericsCommand.swift in Sources */,
+				FF97419820EA2F780072B202 /* GenericsCommandManager.swift in Sources */,
 				FF22C87B20E277E0001B773F /* TMCommandProtocol.swift in Sources */,
 				FF22C87420E277AE001B773F /* main.swift in Sources */,
 				FF22C88820E27A90001B773F /* TetrisMachineManager.swift in Sources */,
+				FF97418E20EA29920072B202 /* DynamicCommandManager.swift in Sources */,
+				FF97418A20EA27F20072B202 /* DynamicCommand.swift in Sources */,
+				FF97419120EA2C0B0072B202 /* WrapperCommand.swift in Sources */,
 				FF22C88220E278DF001B773F /* TetrisMachine.swift in Sources */,
+				FF97419E20EA30900072B202 /* BlockCommandInvoke.swift in Sources */,
+				FF97419B20EA2FF10072B202 /* QueueCommandInvoke.swift in Sources */,
 				FF22C88620E27A41001B773F /* TMTransfromCommand.swift in Sources */,
 				FF22C87D20E27864001B773F /* TMLeftCommand.swift in Sources */,
+				FF97419320EA2E7C0072B202 /* WrapperCommandManager.swift in Sources */,
 				FF22C88420E279F7001B773F /* TMRightCommand.swift in Sources */,
+				FF97418C20EA27FF0072B202 /* CommandProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
